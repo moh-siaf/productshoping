@@ -1,0 +1,89 @@
+/* التنسيق العام للجسم */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* التنسيق للنموذج */
+form {
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* التنسيق للحقول داخل النموذج */
+form .mb-3 {
+    margin-bottom: 15px;
+}
+
+/* التنسيق للتسميات */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* التنسيق لحقول الإدخال */
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* تنسيق أزرار الإدخال */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* تنسيق الصورة الحالية */
+img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* التنسيق للرسائل */
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align:right; /* محاذاة المحتوى إلى اليسار */
+}
+
+/* تنسيق الأزرار */
+.header button {
+    margin-right: 10px; /* مسافة بين الأزرار */
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header button:hover {
+    background-color: #0056b3;
+}
